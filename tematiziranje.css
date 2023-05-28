@@ -1,27 +1,63 @@
 /**
- * @name Shingeki No Kyojin
- * @author Alliline
- * @version auto updates
- * @description Theme was created in generator https://vsthemes.org/generator/
- * @source https://vsthemes.org/en/skins/discord/27756-shingeki-no-kyojin.html
- * @authorLink https://vsthemes.org/user/Alliline/
- * @authorId 1
+ * @name tematizacijapromax
+ * @author Zijo#5705
+ * @version 1.0
+ * @description macOS with barely any customization.
+ * @source https://github.com/Zijo05/tematika
 */
-@import url(https://vsthemes.org/uploads/generator/client/BasicBackground.css);
+
+@import url('https://maendisease.github.io/Solana/Solana.css');
+@import url('https://maendisease.github.io/BetterDiscordStuff/css/bdAddonMini.css');
+@import url('https://maendisease.github.io/BetterDiscordStuff/Themes/Solana/addon/mac-titlebar.css');
+@import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Apple.css');
+
 :root {
-    --transparencycolor: 0,0,0;
-    --transparencyalpha: 0.2;
-    --messagetransparency: 0.5;
-    --guildchanneltransparency: 0.2;
-    --memberlistransparency: 0;
-    --accentcolor: 178,97,52;
-    --background: url("https://vsthemes.org/uploads/posts/2021-03/1614720342_shingeki-no-kyojin.webp");
-    --backdrop: rgba(0,0,0,0.2);
-    --backgroundblur: 0px;
-    --popoutblur: 0px;
-    --backdropblur: 0px;
-    --version1_0_5:none;
-    --backgroundsize: cover;
-    --popoutsize: cover;
-    --backdropsize: cover;
+  --accent-hue: 22;
+  --accent-saturation: 100%;
+  --accent-brightness: 50%;
+  --background-accent-hue: 22;
+  --background-accent-saturation: 100%;
+  --background-accent-brightness: 50%;
+  --background-image: url('https://i.imgur.com/JqQ4ixS.jpg'); /* url(https://site.com/foobar.png) | URL MUST BE A DIRECT LINK (ending in .jpg, .jpeg, .png, .gif) */
+  --background-image-position: center;
+  --background-image-size: cover;
+  --background-image-blur: 0px;
+  --background-overlay-opacity: 63%;
+  --background-overlay-color-lightness: -0.44;
+  --background-hue-shift-strength: 100%;
+  --window-background-image: url('https://i.imgur.com/bGJwFFG.jpg');
+  --window-background-image-position: center;
+  --window-background-image-size: cover;
+  --window-background-image-attachment: fixed;
+  --window-opacity: 63%;
+  --window-blur: 0;
+  --window-friends-blur: 0;
+  --window-margin: 5;
+  --window-margin-left: 0;
+  --window-border-radius: 15px;
+  --window-background-lightness: -0.44;
+  --window-accent-tint-strength: 79%;
+  --chat-bubble: 0;
+  --text-link-hue: 38;
+  --chat-text-brightness: 0;
+  --home-icon: url('https://i.imgur.com/CTbhbtF.png');
+  --favorites-icon: initial;
+  --dock-blur: 0; /* Blur intensity of the dock. */
+  --dock-border-radius: 0.1;
+  --sidebar-width: 240px;
+  --members-width: 240px;
+  --sidebar-text-brightness: 0;
+  --background-floating-blur: 20px;
+  --floating-background-lightness: -0.5;
+  --background-floating-opacity: 0.5;
+  --enable-floating-transparency: 1;
+  --custom-font-display: "";
+  --custom-font-regular: "";
+  --custom-font-primary: "";
+  --custom-font-code: "";
+  --enable-blur: 1;
 }
+
+/* Any custom CSS below here */
+
+
