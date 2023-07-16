@@ -22,14 +22,14 @@
   --background-accent-hue: 22;
   --background-accent-saturation: 100%;
   --background-accent-brightness: 50%;
-  --background-image: url('https://i.imgur.com/JqQ4ixS.jpg'); /* url(https://site.com/foobar.png) | URL MUST BE A DIRECT LINK (ending in .jpg, .jpeg, .png, .gif) */
+  --background-image: url('https://i.imgur.com/3upVJjH.jpg'); /* url(https://site.com/foobar.png) | URL MUST BE A DIRECT LINK (ending in .jpg, .jpeg, .png, .gif) */
   --background-image-position: center;
   --background-image-size: cover;
   --background-image-blur: 0px;
   --background-overlay-opacity: 63%;
   --background-overlay-color-lightness: -0.44;
   --background-hue-shift-strength: 100%;
-  --window-background-image: url('https://i.imgur.com/bGJwFFG.jpg');
+  --window-background-image: url('https://i.imgur.com/3upVJjH.jpg');
   --window-background-image-position: center;
   --window-background-image-size: cover;
   --window-background-image-attachment: fixed;
