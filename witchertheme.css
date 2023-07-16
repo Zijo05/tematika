@@ -1,5 +1,5 @@
 /**
- * @name AoTTheme
+ * @name WitcherTheme
  * @author Zijo#5705
  * @version 1.0
 */
@@ -10,18 +10,18 @@
 @import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Apple.css');
 
 :root {
-  --accent-hue: 22;
-  --accent-saturation: 100%;
+  --accent-hue: 272;
+  --accent-saturation: 60%;
   --accent-brightness: 50%;
-  --background-accent-hue: 22;
+  --background-accent-hue: 272;
   --background-accent-saturation: 100%;
   --background-accent-brightness: 50%;
   --background-image: url('https://i.imgur.com/3upVJjH.jpg');
   --background-image-position: center;
   --background-image-size: cover;
   --background-image-blur: 0px;
-  --background-overlay-opacity: 63%;
-  --background-overlay-color-lightness: -0.44;
+  --background-overlay-opacity: 50%;
+  --background-overlay-color-lightness: -0.32;
   --background-hue-shift-strength: 100%;
   --window-background-image: url('https://i.imgur.com/3upVJjH.jpg');
   --window-background-image-position: center;
@@ -31,17 +31,17 @@
   --window-blur: 0;
   --window-friends-blur: 0;
   --window-margin: 5;
-  --window-margin-left: 0;
+  --window-margin-left: 5;
   --window-border-radius: 15px;
-  --window-background-lightness: -0.44;
-  --window-accent-tint-strength: 79%;
+  --window-background-lightness: -0.43;
+  --window-accent-tint-strength: 100%;
   --chat-bubble: 0;
-  --text-link-hue: 38;
+  --text-link-hue: 272;
   --chat-text-brightness: 0;
-  --home-icon: url('https://i.imgur.com/SH1neDr.png');
+  --home-icon: url('https://i.imgur.com/CTbhbtF.png');
   --favorites-icon: initial;
   --dock-blur: 0;
-  --dock-border-radius: 0.1;
+  --dock-border-radius: 0;
   --sidebar-width: 240px;
   --members-width: 240px;
   --sidebar-text-brightness: 0;
@@ -57,5 +57,3 @@
 }
 
 /* Any custom CSS below here */
-
-
