@@ -76,14 +76,14 @@
 }
 .panels-3wFtMD div .flex-2S1XBF:hover button[role="switch"] {
   width: 32px;
-  overflow: visible;
+  overflow: hidden;
   transition: all 0.3s;
   left: 0px;
 }
 .panels-3wFtMD div .flex-2S1XBF:not(:hover) button:not([role="switch"]) svg {
   rotate: 360deg;
   transition: rotate 0.3s;
-   /* might look off with some themes */
+  /* might look off with some themes */
 }
 .panels-3wFtMD div .flex-2S1XBF:hover button:not([role="switch"]) svg {
   rotate: 0deg;
