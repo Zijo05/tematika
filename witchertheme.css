@@ -4,11 +4,6 @@
  * @version 1.0
 */
 
-@import url('https://maendisease.github.io/Solana/Solana.css');
-@import url('https://maendisease.github.io/BetterDiscordStuff/css/bdAddonMini.css');
-@import url('https://maendisease.github.io/BetterDiscordStuff/Themes/Solana/addon/mac-titlebar.css');
-@import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Apple.css');
-
 :root {
   --accent-hue: 272;
   --accent-saturation: 60%;
@@ -58,4 +53,8 @@
 
 /* Any custom CSS below here */
 
-@import url('https://raw.githubusercontent.com/Zijo05/tematika/main/snippets/expandable_user_panel.css')
+@import url('https://raw.githubusercontent.com/Zijo05/tematika/main/snippets/expandable_user_panel.css');
+@import url('https://maendisease.github.io/Solana/Solana.css');
+@import url('https://maendisease.github.io/BetterDiscordStuff/css/bdAddonMini.css');
+@import url('https://maendisease.github.io/BetterDiscordStuff/Themes/Solana/addon/mac-titlebar.css');
+@import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Apple.css');
