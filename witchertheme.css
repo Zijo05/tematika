@@ -83,7 +83,7 @@
 .panels-3wFtMD div .flex-2S1XBF:not(:hover) button:not([role="switch"]) svg {
   rotate: 360deg;
   transition: rotate 0.3s;
-  /* might look off with some themes */
+  background-color: var(--background-secondary-alt); /* might look off with some themes */
 }
 .panels-3wFtMD div .flex-2S1XBF:hover button:not([role="switch"]) svg {
   rotate: 0deg;
