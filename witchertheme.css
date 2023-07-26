@@ -56,6 +56,8 @@
   --custom-font-primary: "";
   --custom-font-code: "";
   --enable-blur: 1;
+  --channel-bg: #8c00ff34;
+  --channel-border: rgb(105, 12, 192);
 }
 
 /* Any custom CSS below here */

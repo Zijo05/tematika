@@ -6062,3 +6062,48 @@ bd-body .floating-window {
   font-weight: 600;
   text-transform: capitalize;
 }
+
+/* Rounded border around selected channel */
+:root {
+  --channel-bg: #8c00ff34;
+  --channel-border: rgb(105, 12, 192);
+  --channel-curve: 0.75rem;
+  --channel-border-thickness: 2px;
+}
+
+:not([class*=container-]) > ul > [class*=containerDefault-][class*=selected-] > div > div > [class*=link],
+[class*=container-] > ul > [class*=containerDefault-][class*=selected-] > [class*=wrapper-] > [class*=link-],
+[class*=iconVisibility-][class*=wrapper-][class*=modeSelected-] > div > [class*=link-]
+{
+  background: var(--channel-bg);
+  border: var(--channel-border-thickness) solid var(--channel-border);
+  border-radius: var(--channel-curve);
+}
+
+[class*=containerDefault] > div > div > a > div > div > svg { width: 15px; height: 15px; }
+
+:not([class*=container-]) > ul > [class*=containerDefault-] > div > div > [class*=link],
+[class*=container-] > ul > [class*=containerDefault-] > [class*=wrapper-] > [class*=link-],
+[class*=modeConnected-] > div > [class*=link-],
+[class*=iconVisibility-][class*=wrapper-] > div > [class*=link-],
+[class*=containerDefault-] > [class*=list-] > div > div > div
+{
+    border: var(--channel-border-thickness) solid transparent;
+    background-color: transparent;
+    border-radius: var(--channel-curve);
+}
+
+:not([class*=container-]) > ul > [class*=containerDefault-]:hover > div > div > [class*=link],
+[class*=container-] > ul > [class*=containerDefault-]:hover > [class*=wrapper-] > [class*=link-],
+[class*=iconVisibility-][class*=wrapper-]:hover > div > [class*=link-],
+[class*=containerDefault-] > [class*=list-] > div:hover > div > div
+{
+    border-color: var(--channel-border) !important;
+}
+
+[class*=unread-] { display: none; }
+
+[class*=modeUnread] [class*=icon-],
+[class*=containerDefault-][class*=selected-] [class*=icon-], [class*=modeSelected-] [class*=icon-],
+[class*=containerDefault-]:hover [class*=icon-] { color: var(--channel-border) !important;
+}
