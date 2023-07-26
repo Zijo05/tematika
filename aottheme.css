@@ -4,10 +4,12 @@
  * @version 1.0
 */
 
-@import url('https://maendisease.github.io/Solana/Solana.css');
+@import url('https://raw.githubusercontent.com/Zijo05/tematika/main/snippets/zijo.css');
 @import url('https://maendisease.github.io/BetterDiscordStuff/css/bdAddonMini.css');
-@import url('https://maendisease.github.io/BetterDiscordStuff/Themes/Solana/addon/mac-titlebar.css');
-@import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Apple.css');
+@import url('https://raw.githubusercontent.com/Zijo05/tematika/main/snippets/mac-titlebar.css');
+@import url('https://raw.githubusercontent.com/Zijo05/tematika/main/snippets/emojis-apple.css');
+@import url('https://raw.githubusercontent.com/Zijo05/tematika/main/snippets/expandable-user-panel.css');
+
 
 :root {
   --accent-hue: 22;
